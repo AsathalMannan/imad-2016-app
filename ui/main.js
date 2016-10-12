@@ -10,5 +10,5 @@ function moveRight(){
     img.style.marginLeft = moveleft + 'px';
 }
 img.onclick = function() {
-    var interval =  setInterval(moveRight, 100);
+    var interval =  setInterval(moveRight, 50);
 }
