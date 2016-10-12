@@ -6,7 +6,7 @@ element.innerHTML = 'Client javascript is running..!';
 var img = document.getElementById('madi');
 var moveleft = 0;
 function moveRight(){
-    moveleft = moveleft + '10';
+    moveleft = moveleft + '5';
     img.style.marginLeft = moveleft + 'px';
 }
 img.onclick = function() {
