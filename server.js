@@ -66,12 +66,21 @@ function createTemplate (data){
     </head>
     <body>
         <div class="container">
-        <div>
-            <a href="/">Home</a>
-            <a href="/article-one">1</a>
-            <a href="/article-two">2</a>
-            <a href="/article-three">3</a>
-        </div>
+         <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <a class="navbar-brand" href="/">Home</a>
+              <ul class="nav navbar-nav">
+              <li><a href="/article-one">Article One</a></li>
+              <li><a href="/article-two">Article Two</a></li>
+              <li><a href="/article-three">Article Three</a></li>
+              </ul>
+              </div>
+            </div></div>
+            </nav>
         <hr/>
         <h3>${heading}</h3>
         <div class="date">${date}</div>
