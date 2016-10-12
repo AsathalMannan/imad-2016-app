@@ -13,6 +13,9 @@ button.onclick = function() {
             span.innerHTML = counter.toString();
         }
         //not necessary
-    }
-    }
-}
+        }
+    };
+    //make the request
+    request.open('GET', 'http://asathalmannan.imad.hasura-app.io/counter');
+    request.send(null);
+};
